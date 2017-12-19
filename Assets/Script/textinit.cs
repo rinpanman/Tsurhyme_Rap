@@ -12,7 +12,7 @@ public class textinit : MonoBehaviour {
         Text txt = GameObject.Find("Text").GetComponent<Text>();
         Text txt1 = GameObject.Find("Text (1)").GetComponent<Text>();
         string str = SaveData.GetString("input");
-        string str1 = NewBehaviourScript.return_data;
+        string str1 = req_test.return_data;
         Debug.Log(str);
         txt.text = str;
         txt1.text = str1;

@@ -21,9 +21,9 @@ public class waiting : MonoBehaviour {
 
         i++;
 
-        if (NewBehaviourScript.get_flag1())
+        if (req_test.get_flag1())
         {
-            if (NewBehaviourScript.get_flag2())
+            if (req_test.get_flag2())
             {
                 SceneTransition.ChangeScene("seikou");
             }
@@ -39,7 +39,7 @@ public class waiting : MonoBehaviour {
             SceneTransition.FadeIn();
         }
 
-        if (i >= 300)
+        if (i >= 1000)
         {
             Debug.Log("韻踏めなかった");
             SceneTransition.ChangeScene("fly_siberia");

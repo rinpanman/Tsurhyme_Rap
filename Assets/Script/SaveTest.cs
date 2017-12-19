@@ -39,7 +39,7 @@ public class SaveTest : MonoBehaviour
         Debug.Log(getPlayer.name);
         Debug.Log(getPlayer.items.Count + "‚±ƒAƒCƒeƒ€‚ğ‚Á‚Ä‚Ü‚·");
         Debug.Log(getPlayer.items[0] + getPlayer.items[1] + getPlayer.items[2]);
-
+        Debug.Log(SaveData.GetInt("i"));
 
     }
 
